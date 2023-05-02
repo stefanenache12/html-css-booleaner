@@ -42,10 +42,16 @@ table{
     width: 100%;
 }
 
-th{
+#th1{
     background-color: rgba(32,169,229,255);
     color: white;
-    width: 30%;
+    width: 25%;
+}
+
+#th2{
+    background-color: rgba(32,169,229,255);
+    color: white;
+    width: 50%;
 }
 
 #row1{
