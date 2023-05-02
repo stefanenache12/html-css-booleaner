@@ -1,15 +1,53 @@
+body{
+    font-family:sans-serif;
+}
+
 #header{
     background-color: rgba(78,160,255,255);
     height: 100px;
     background-image: url(../img/pattern.png);
     background-size: contain;
     background-repeat: repeat;
-    position: relative;
-    
+    position: relative;  
 }
 
 #logo-booleaner{
     position: absolute;
     bottom: 0px;
     left: 0px;
+}
+
+#credenziali{
+    color: gray;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+span{
+    background-color: yellow;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+}
+
+th{
+    background-color: rgba(32,169,229,255);
+    color: white;
+    width: 30%;
+}
+
+#row1{
+    background-color: rgba(177,229,242,255);
+}
+
+#row2{
+    background-color: white;
+}
+
+#row3{
+    background-color: rgba(177,229,242,255);
 }
