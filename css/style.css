@@ -1,6 +1,9 @@
 body{
-    font-family:sans-serif;
+    font-family:serif;
+    font-weight: 600;
 }
+
+/* Header*/
 
 #header{
     background-color: rgba(78,160,255,255);
@@ -17,6 +20,9 @@ body{
     left: 0px;
 }
 
+
+/* Articolo*/
+
 #credenziali{
     color: gray;
 }
@@ -28,6 +34,8 @@ h1{
 span{
     background-color: yellow;
 }
+
+/* Tabella*/
 
 table{
     text-align: center;
@@ -50,4 +58,24 @@ th{
 
 #row3{
     background-color: rgba(177,229,242,255);
+}
+
+/* Footer*/
+
+#link1{
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#link2{
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    color: white;
 }
